@@ -24,5 +24,23 @@
         <input type="text" name="email" placeholder="E-Mail">
         <button class="button-style">SignUp</button>
     </form>
+
+
+    <h3 class="h3-signup">Change Password and Email</h3>
+
+    <form class="form-signup" action="includes/userupdate.inc.php" method="post">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="pwd" placeholder="Password">
+        <input type="text" name="email" placeholder="E-Mail">
+        <button class="button-style">Update</button>
+    </form>
+
+    <h3 class="h3-signup">Delete account</h3>
+
+    <form class="form-signup" action="includes/userdelete.inc.php" method="post">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="pwd" placeholder="Password">
+        <button class="button-style">Delete</button>
+    </form>
 </body>
 </html>
